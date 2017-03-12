@@ -1,0 +1,131 @@
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: rgb(2, 62, 115);
+    background-image: url("../images/rock-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/*.jumbotron {
+	background-color: transparent;
+	font-family: 'Rokkitt', serif;
+	font-size: 60px;
+	text-align: center;
+	color: #F2F2F2;
+	font-weight: bolder;
+}*/
+
+.startButton {
+    box-shadow: 8px 8px 123px -9px rgba(0,0,0,1);
+    height: 100px;
+    width: 300px;
+    background-color: mediumpurple;
+    border-radius: 2px;
+    font-size: 20px;
+    color:#F2F2F2;
+    margin-top: 40px;
+
+
+}
+.startButton:hover {
+    background-color: cornflowerblue;
+}
+
+h1 {
+    font-size: 80px;
+    /*text-shadow: */
+    margin-bottom: -30px;
+    font-family: 'MedivalSharp', cursive;
+}
+
+/*This styles the correct answer when displayed on the answer page*/
+span {
+    font-weight: bolder;
+
+}
+
+.guess {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    display: block;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #023E73;
+    color: white;
+    text-align: center;
+    margin: 20px;
+    margin-left: 75px;
+    padding: 20px;
+    width: 40%;
+}
+
+.guess:hover {
+    background-color: cornflowerblue;
+    /*border: solid 1px black;*/
+    color: white;
+}
+
+p {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Rokkitt', serif;
+
+}
+
+
+.triviaBox {
+
+    border: solid 2px black;
+
+}
+
+.panel {
+    background-color: rgb(242,242, 242);
+    background-color: rgba(242,242, 242, .8);
+    /*background-color: transparent;*/
+    height: 700px;
+    /*overflow: auto;*/
+    /*margin-top: -50px;*/
+
+}
+.pictureframe {
+    height: 300px;
+    width: 567px;
+    margin-top: 25px;
+
+}
+
+
+.img-center {
+    margin:0 auto;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+
+}
+
+#header {
+    margin-bottom: 30px;
+    font-family: 'Rokkitt', serif;
+
+}
+#timer {
+    font-weight: bolder;
+
+}
+
+#question {
+    font-size: 25px;
+
+
+}
+
+
+#correctAnswer {
+    font-size:25px;
+}
